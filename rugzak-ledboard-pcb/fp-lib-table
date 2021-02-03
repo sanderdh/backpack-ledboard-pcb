@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name ESP32_Devkit_DOIT_V1)(type KiCad)(uri ${KIPRJMOD}/lib/ESP32_Devkit_DOIT_V1)(options "")(descr ""))
+  (lib (name edge)(type KiCad)(uri ${KIPRJMOD}/lib/edge)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/lib)(options "")(descr ""))
+)

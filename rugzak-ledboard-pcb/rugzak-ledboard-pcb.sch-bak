@@ -1,0 +1,415 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP32_Shield:ESP32_Devkit_DOIT_V1 ESP321
+U 1 1 60078C6E
+P 4980 3510
+F 0 "ESP321" H 4980 4472 60  0000 C CNN
+F 1 "ESP32_Devkit_DOIT_V1" H 4980 4366 60  0000 C CNN
+F 2 "ESP32_Devkit_DOIT_V1:ESP32_Devkit_DOIT_V1" H 4980 3510 60  0001 C CNN
+F 3 "" H 4980 3510 60  0001 C CNN
+	1    4980 3510
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x15_Female J1
+U 1 1 60079A8F
+P 2625 3435
+F 0 "J1" H 2653 3461 50  0000 L CNN
+F 1 "Conn_01x15_Female" H 2653 3370 50  0000 L CNN
+F 2 "edge:PinSocket_1x15_P2.54mm_Vertical" H 2625 3435 50  0001 C CNN
+F 3 "~" H 2625 3435 50  0001 C CNN
+	1    2625 3435
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x15_Female J4
+U 1 1 6007A179
+P 8040 3505
+F 0 "J4" H 8068 3531 50  0000 L CNN
+F 1 "Conn_01x15_Female" H 8068 3440 50  0000 L CNN
+F 2 "edge:PinSocket_1x15_P2.54mm_Vertical" H 8040 3505 50  0001 C CNN
+F 3 "~" H 8040 3505 50  0001 C CNN
+	1    8040 3505
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 6007E77D
+P 4210 5400
+F 0 "J2" H 4238 5376 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 4238 5285 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4210 5400 50  0001 C CNN
+F 3 "~" H 4210 5400 50  0001 C CNN
+	1    4210 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 6007EABE
+P 5525 5420
+F 0 "J3" H 5553 5396 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5553 5305 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5525 5420 50  0001 C CNN
+F 3 "~" H 5525 5420 50  0001 C CNN
+	1    5525 5420
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3410 3460 3410 2835
+Wire Wire Line
+	3410 2835 2825 2835
+Wire Wire Line
+	2825 2935 3975 2935
+Wire Wire Line
+	3975 2935 3975 3560
+Wire Wire Line
+	3975 3560 4255 3560
+Wire Wire Line
+	4255 3460 3410 3460
+Wire Wire Line
+	2825 3135 3870 3135
+Wire Wire Line
+	3870 3135 3870 2365
+Wire Wire Line
+	3870 2365 6230 2365
+Wire Wire Line
+	6230 2365 6230 3560
+Wire Wire Line
+	6230 3560 5705 3560
+Wire Wire Line
+	2825 3235 4125 3235
+Wire Wire Line
+	4125 3235 4125 2490
+Wire Wire Line
+	4125 2490 6045 2490
+Wire Wire Line
+	6045 2490 6045 3060
+Wire Wire Line
+	6045 3060 5705 3060
+Wire Wire Line
+	2825 3435 3760 3435
+Wire Wire Line
+	3760 3435 3760 2185
+Wire Wire Line
+	3760 2185 5890 2185
+Wire Wire Line
+	5890 2185 5890 2960
+Wire Wire Line
+	5890 2960 5705 2960
+Wire Wire Line
+	2825 3535 3250 3535
+Wire Wire Line
+	3250 3535 3250 2070
+Wire Wire Line
+	3250 2070 6135 2070
+Wire Wire Line
+	6135 2070 6135 3360
+Wire Wire Line
+	6135 3360 5705 3360
+Wire Wire Line
+	2825 3635 3585 3635
+Wire Wire Line
+	3585 3635 3585 1960
+Wire Wire Line
+	3585 1960 6425 1960
+Wire Wire Line
+	6425 1960 6425 3460
+Wire Wire Line
+	6425 3460 5705 3460
+Wire Wire Line
+	7355 2905 7840 2905
+Wire Wire Line
+	4255 2960 4035 2960
+Wire Wire Line
+	4035 2960 4035 1825
+Wire Wire Line
+	4035 1825 6965 1825
+Wire Wire Line
+	6965 1825 6965 3005
+Wire Wire Line
+	6965 3005 7840 3005
+Wire Wire Line
+	7840 3205 6300 3205
+Wire Wire Line
+	6300 3205 6300 2860
+Wire Wire Line
+	6300 2860 5845 2860
+Wire Wire Line
+	4255 3260 4185 3260
+Wire Wire Line
+	4185 3260 4185 1705
+Wire Wire Line
+	4185 1705 7550 1705
+Wire Wire Line
+	7550 1705 7550 3305
+Wire Wire Line
+	7550 3305 7840 3305
+Wire Wire Line
+	5705 3260 7480 3260
+Wire Wire Line
+	7480 3260 7480 3405
+Wire Wire Line
+	7480 3405 7840 3405
+Wire Wire Line
+	4255 3360 4030 3360
+Wire Wire Line
+	4030 3360 4030 4580
+Wire Wire Line
+	4030 4580 6735 4580
+Wire Wire Line
+	6735 4580 6735 3505
+Wire Wire Line
+	6735 3505 7840 3505
+Wire Wire Line
+	4255 4060 3650 4060
+Wire Wire Line
+	3650 4060 3650 5600
+Wire Wire Line
+	3650 5600 4010 5600
+Wire Wire Line
+	4255 3760 3745 3760
+Wire Wire Line
+	3745 3760 3745 5500
+Wire Wire Line
+	3745 5500 4010 5500
+Wire Wire Line
+	4255 2760 4220 2760
+Wire Wire Line
+	3940 2760 3940 5155
+Wire Wire Line
+	3940 5400 4010 5400
+Wire Wire Line
+	4255 2860 4000 2860
+Wire Wire Line
+	3475 2860 3475 4980
+Wire Wire Line
+	3475 5300 4010 5300
+Wire Wire Line
+	2825 3035 3835 3035
+Wire Wire Line
+	3835 3035 3835 3660
+Wire Wire Line
+	3835 3660 4255 3660
+Wire Wire Line
+	3940 5155 5110 5155
+Wire Wire Line
+	5110 5155 5110 5420
+Wire Wire Line
+	5110 5420 5325 5420
+Connection ~ 3940 5155
+Wire Wire Line
+	3940 5155 3940 5400
+Wire Wire Line
+	3475 4980 5240 4980
+Wire Wire Line
+	5240 4980 5240 5320
+Wire Wire Line
+	5240 5320 5325 5320
+Connection ~ 3475 4980
+Wire Wire Line
+	3475 4980 3475 5300
+$Comp
+L Connector:Conn_01x08_Female J5
+U 1 1 600D9949
+P 7070 5370
+F 0 "J5" H 7098 5346 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 7098 5255 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 7070 5370 50  0001 C CNN
+F 3 "~" H 7070 5370 50  0001 C CNN
+	1    7070 5370
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5110 5155 6485 5155
+Wire Wire Line
+	6485 5155 6485 5070
+Wire Wire Line
+	6485 5070 6870 5070
+Connection ~ 5110 5155
+Wire Wire Line
+	5240 4980 6685 4980
+Wire Wire Line
+	6685 4980 6685 5170
+Wire Wire Line
+	6685 5170 6870 5170
+Connection ~ 5240 4980
+Wire Wire Line
+	5060 4705 5060 5520
+Wire Wire Line
+	5060 5520 5325 5520
+Wire Wire Line
+	4965 4650 4965 5620
+Wire Wire Line
+	4965 5620 5325 5620
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 600F90C8
+P 4990 1190
+F 0 "J7" H 5098 1371 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5098 1280 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4990 1190 50  0001 C CNN
+F 3 "~" H 4990 1190 50  0001 C CNN
+	1    4990 1190
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5705 2760 5790 2760
+Wire Wire Line
+	5790 2760 5790 1290
+Wire Wire Line
+	5790 1290 5190 1290
+Wire Wire Line
+	5845 2860 5845 1190
+Wire Wire Line
+	5845 1190 5190 1190
+Connection ~ 5845 2860
+Wire Wire Line
+	5845 2860 5705 2860
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 60103825
+P 3785 1355
+F 0 "J6" H 3893 1536 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3893 1445 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3785 1355 50  0001 C CNN
+F 3 "~" H 3785 1355 50  0001 C CNN
+	1    3785 1355
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4220 2760 4220 1355
+Wire Wire Line
+	4220 1355 3985 1355
+Connection ~ 4220 2760
+Wire Wire Line
+	4220 2760 3940 2760
+Wire Wire Line
+	4000 2860 4000 1455
+Wire Wire Line
+	4000 1455 3985 1455
+Connection ~ 4000 2860
+Wire Wire Line
+	4000 2860 3475 2860
+Wire Wire Line
+	7840 4205 7725 4205
+Wire Wire Line
+	7725 4205 7725 4105
+Wire Wire Line
+	7725 4105 7840 4105
+Wire Wire Line
+	7840 4005 7725 4005
+Wire Wire Line
+	7725 4005 7725 4105
+Connection ~ 7725 4105
+Wire Wire Line
+	7725 4005 7725 3905
+Wire Wire Line
+	7725 3905 7840 3905
+Connection ~ 7725 4005
+Wire Wire Line
+	7725 3805 7725 3905
+Connection ~ 7725 3905
+NoConn ~ 7840 3705
+Wire Wire Line
+	6300 2860 6565 2860
+Wire Wire Line
+	7655 2860 7655 2805
+Wire Wire Line
+	7655 2805 7840 2805
+Connection ~ 6300 2860
+Wire Wire Line
+	2825 2735 3475 2735
+Wire Wire Line
+	3475 2735 3475 2860
+Connection ~ 3475 2860
+Wire Wire Line
+	7725 3805 7615 3805
+Wire Wire Line
+	7615 3805 7615 1290
+Wire Wire Line
+	7615 1290 5790 1290
+Connection ~ 5790 1290
+Wire Wire Line
+	2825 3335 3160 3335
+Wire Wire Line
+	3160 3335 3160 2860
+Wire Wire Line
+	3160 2860 3475 2860
+Wire Wire Line
+	2825 3735 3160 3735
+Wire Wire Line
+	3160 3735 3160 3335
+Connection ~ 3160 3335
+NoConn ~ 2825 3835
+NoConn ~ 2825 3935
+NoConn ~ 2825 4035
+NoConn ~ 2825 4135
+NoConn ~ 6870 5470
+NoConn ~ 6870 5570
+NoConn ~ 6870 5670
+NoConn ~ 6870 5770
+NoConn ~ 7840 3805
+Wire Wire Line
+	7355 2905 7355 2315
+Wire Wire Line
+	7355 2315 4085 2315
+Wire Wire Line
+	4085 2315 4085 3060
+Wire Wire Line
+	4085 3060 4255 3060
+Wire Wire Line
+	4255 3160 3895 3160
+Wire Wire Line
+	3895 3160 3895 4425
+Wire Wire Line
+	3895 4425 7300 4425
+Wire Wire Line
+	7300 4425 7300 3105
+Wire Wire Line
+	7300 3105 7840 3105
+Wire Wire Line
+	7840 3605 6565 3605
+Wire Wire Line
+	6565 3605 6565 2860
+Connection ~ 6565 2860
+Wire Wire Line
+	6565 2860 7655 2860
+Wire Wire Line
+	5705 3160 5955 3160
+Wire Wire Line
+	5955 3160 5955 4705
+Wire Wire Line
+	5955 4705 5060 4705
+Wire Wire Line
+	5705 3660 5880 3660
+Wire Wire Line
+	5880 3660 5880 4650
+Wire Wire Line
+	5880 4650 5510 4650
+Wire Wire Line
+	5510 5270 5510 4650
+Wire Wire Line
+	5510 5270 6870 5270
+Connection ~ 5510 4650
+Wire Wire Line
+	5510 4650 4965 4650
+Wire Wire Line
+	5955 5370 5955 4705
+Wire Wire Line
+	5955 5370 6870 5370
+Connection ~ 5955 4705
+$EndSCHEMATC
