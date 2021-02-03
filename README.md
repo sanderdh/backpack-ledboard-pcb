@@ -13,11 +13,11 @@ I didnt like the software that came with it so I made my own pcb to mount and ES
 
 ## PCB
 
-[bare pcb](images/bare-pdb.jpg)
+[bare pcb](images/bare-pcb.jpeg)
 
-[pcb mounted](images/pdb-mounted.jpg)
+[pcb mounted](images/pcb-mounted.jpeg)
 
-[pcb](images/pdb-with-nunchuck.jpg)
+[pcb](images/pcb-with-nunchuck.jpg)
 
 
 ####License
