@@ -20,7 +20,8 @@ I didnt like the software that came with it so I made my own pcb to mount and ES
 ![pcb](images/pcb-with-nunchuck.jpg)
 
 
-####License
+## License
+
 The MIT License (MIT)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
