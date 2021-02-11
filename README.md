@@ -19,6 +19,11 @@ I didnt like the software that came with it so I made my own pcb to mount and ES
 
 [pcb](images/pdb-with-nunchuck.jpg)
 
+## Demo
+
+[![Falling sand demo](http://img.youtube.com/vi/EU4HEm3MnZw/0.jpg)](http://www.youtube.com/watch?v=EU4HEm3MnZw "Falling sand demo")
+
+[![Tetris demo](http://img.youtube.com/vi/QRTvu-NzwJQ/0.jpg)](http://www.youtube.com/watch?v=QRTvu-NzwJQ "Tetris demo")
 
 ####License
 The MIT License (MIT)
